@@ -1,0 +1,61 @@
+.footer {
+    min-width: 768px;
+    height: 90px;
+    position: fixed;
+    bottom: 0;
+    background-color: #181818;
+}
+
+footer {
+    height: 100%;
+}
+
+footer > .row {
+    height: 100%;
+}
+
+.player-bar {
+    background-color: #535353;
+    height: 4px;
+    border-radius: 2px;
+}
+
+.footer button {
+    background: none;
+    border: none;
+    color: #b3b3b3;
+    cursor: default;
+    height: 32px;
+    width: 32px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.footer button:hover:not(.play-button) {
+    color: #fff;
+}
+
+.footer i {
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.player-buttons {
+    width: 224px;
+    flex: none;
+    margin-bottom: 12px;
+    display: flex;
+}
+
+.footer .play-button {
+    color: #000;
+    background-color: #fff;
+    border-radius: 32px;
+}
+
+.play-button:hover {
+    transform: scale(1.06);
+    transition: none 33ms cubic-bezier(.3,0,0,1);
+    transition-property: all;
+}
