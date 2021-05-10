@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    height: 100vh;
+}
+a{
+    color: white !important;
+}
+#logo{
+    width: 200px;
+}
+svg{
+    fill: white;
+}
