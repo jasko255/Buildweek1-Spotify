@@ -1,0 +1,52 @@
+
+      #body {
+
+        background: rgb(6,4,20);
+        background: linear-gradient(356deg, rgba(6,4,20,1) 15%, rgba(14,65,109,1) 58%, rgba(19,102,162,1) 100%);
+        /* background: rgb(6,4,20);
+        background: linear-gradient(356deg, rgba(6,4,20,1) 3%, rgba(14,65,109,1) 58%, rgba(19,102,162,1) 94%); */
+        /* background: rgb(6,4,20);
+        background: linear-gradient(270deg, rgba(6,4,20,1) 24%, rgba(16,72,163,1) 94%); */
+        color: white;
+        font-family: "Montserrat";
+        font
+      }
+
+      .button_top {
+        color: white;
+        font-size: 13px;
+        font-family: Trebuchet MS;
+        padding-right: 38px;
+      }
+
+      .col p {
+        color: white;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 500;
+      }
+
+      #body {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top:5px ;
+      }
+
+      .green_line{
+        border: chartreuse  1px solid;
+      }
+
+      .col {
+        padding-right: 5px;
+      }
+
+      .card {
+        border: none;
+      }
+
+     div h2 {
+         font-weight: 1000 !important;
+     }
+
+
+
