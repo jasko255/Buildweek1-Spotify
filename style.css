@@ -1,5 +1,5 @@
 .footer {
-    min-width: 768px;
+    min-width: 720px;
     height: 83px;
     position: fixed;
     bottom: 0;
@@ -83,4 +83,20 @@ footer > .row > .col-4:nth-child(2) {
 
 .wider-icon {
     transform: scale(1.5,1);
+}
+
+.volume-bar {
+    flex: 0 1 125px;
+}
+
+.player-right-section i{
+    font-size: 12px;
+}
+
+.player-volume {
+    height: 4px;
+    background-color: #b3b3b3;
+    width: 100%;
+    border-radius: 2px;
+    margin-bottom: 2px;
 }
