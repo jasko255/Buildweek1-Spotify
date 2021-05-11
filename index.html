@@ -7,12 +7,175 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Hello, world!</title>
   </head>
   <body>
-    <div class="container-fluid footer">
+    <div class="d-flex h-100">
+    <!-- left navbar starts -->
+    <div class="d-flex flex-column  p-3  bg-black" style="width: 230px;">
+      <div class="mh-brand-wrapper svelte-1irxfym w-75">
+        <a href="https://www.spotify.com/it/" class="mh-header  svelte-18o1xvt" data-tracking="{&quot;category&quot;: &quot;menu&quot;, &quot;action&quot;: &quot;spotify-logo&quot;}">
+         <span class="mh-header-primary svelte-1gcdbl9">
+            <svg viewBox="0 0 63 20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMin meet">
+              <g fill-rule="evenodd" class="svelte-1gcdbl9">
+                <path d="M61.842 9.506a1.02 1.02 0 0 1-1.023-1.024c0-.562.453-1.03 1.029-1.03a1.02 1.02 0 0 1 1.023 1.024 1.03 1.03 0 0 1-1.029 1.03m.006-1.952a.915.915 0 0 0-.922.928c0 .51.394.921.916.921a.916.916 0 0 0 .922-.927.908.908 0 0 0-.916-.922m.226 1.027l.29.406h-.244l-.26-.372h-.225v.372h-.204V7.912h.48c.249 0 .413.128.413.343 0 .176-.102.284-.25.326m-.172-.485h-.267v.34h.267c.133 0 .212-.065.212-.17 0-.11-.08-.17-.212-.17m-12.804-3.52a1.043 1.043 0 1 0-.001 2.086 1.043 1.043 0 0 0 0-2.087m.72 2.89h-1.454a.107.107 0 0 0-.106.107v6.346c0 .06.047.107.106.107h1.455a.107.107 0 0 0 .107-.107V7.572a.107.107 0 0 0-.107-.107m3.233.006v-.2c0-.592.227-.856.736-.856.303 0 .546.06.82.152a.106.106 0 0 0 .14-.102V5.24a.107.107 0 0 0-.076-.102 3.993 3.993 0 0 0-1.21-.174c-1.343 0-2.053.757-2.053 2.188v.308h-.699a.107.107 0 0 0-.107.106v1.257c0 .059.048.107.107.107h.699v4.99c0 .058.047.106.106.106h1.455a.107.107 0 0 0 .106-.107v-4.99h1.358l2.081 4.99c-.236.523-.468.628-.785.628-.257 0-.527-.077-.803-.228a.109.109 0 0 0-.084-.008.106.106 0 0 0-.063.058l-.493 1.081a.106.106 0 0 0 .045.138c.515.279.98.398 1.554.398 1.074 0 1.668-.5 2.191-1.847L60.6 7.617a.106.106 0 0 0-.099-.146h-1.514a.107.107 0 0 0-.1.072l-1.552 4.431-1.7-4.434a.106.106 0 0 0-.099-.069h-2.485m-5.577-.006h-1.6V5.828a.106.106 0 0 0-.107-.106h-1.455a.107.107 0 0 0-.106.106v1.637h-.7a.106.106 0 0 0-.106.107v1.25c0 .059.048.107.106.107h.7v3.234c0 1.308.65 1.97 1.934 1.97.522 0 .954-.107 1.362-.338a.106.106 0 0 0 .054-.093v-1.19a.106.106 0 0 0-.154-.096c-.28.141-.551.206-.854.206-.467 0-.675-.211-.675-.686V8.929h1.6a.106.106 0 0 0 .107-.107v-1.25a.106.106 0 0 0-.106-.107m-7.671-.133c-1.96 0-3.497 1.51-3.497 3.437 0 1.907 1.526 3.4 3.473 3.4 1.967 0 3.508-1.504 3.508-3.424 0-1.914-1.53-3.413-3.484-3.413m0 5.362c-1.043 0-1.83-.838-1.83-1.95 0-1.115.76-1.924 1.806-1.924 1.05 0 1.84.838 1.84 1.95 0 1.115-.763 1.924-1.816 1.924m-7.014-5.362c-.82 0-1.492.323-2.046.984v-.744a.107.107 0 0 0-.106-.107h-1.455a.107.107 0 0 0-.106.107v8.27c0 .058.048.106.106.106h1.455a.107.107 0 0 0 .106-.106v-2.61c.555.621 1.227.925 2.046.925 1.522 0 3.063-1.172 3.063-3.412s-1.54-3.413-3.063-3.413m1.372 3.413c0 1.14-.703 1.937-1.709 1.937-.995 0-1.745-.833-1.745-1.937s.75-1.937 1.745-1.937c.99 0 1.71.814 1.71 1.937m-8.437-1.81c-1.624-.388-1.913-.66-1.913-1.231 0-.54.508-.903 1.264-.903.732 0 1.459.275 2.22.843a.107.107 0 0 0 .15-.023l.794-1.119a.107.107 0 0 0-.02-.144c-.906-.728-1.927-1.081-3.12-1.081-1.755 0-2.98 1.052-2.98 2.559 0 1.615 1.057 2.187 2.884 2.628 1.554.358 1.817.658 1.817 1.195 0 .594-.53.963-1.385.963-.948 0-1.721-.32-2.587-1.068a.11.11 0 0 0-.078-.026.105.105 0 0 0-.073.038l-.89 1.058a.105.105 0 0 0 .011.148 5.303 5.303 0 0 0 3.581 1.373c1.89 0 3.112-1.033 3.112-2.631 0-1.351-.807-2.098-2.787-2.58M9.507.305a9.41 9.41 0 1 0 0 18.82 9.41 9.41 0 0 0 0-18.82m4.316 13.572a.586.586 0 0 1-.807.195c-2.21-1.35-4.99-1.655-8.266-.907a.586.586 0 1 1-.261-1.143c3.584-.82 6.659-.467 9.139 1.049.276.169.363.53.195.806m1.15-2.562a.734.734 0 0 1-1.008.242c-2.529-1.555-6.385-2.005-9.377-1.097a.735.735 0 0 1-.426-1.404c3.418-1.037 7.666-.534 10.57 1.25a.734.734 0 0 1 .242 1.01m.1-2.669C12.04 6.846 7.036 6.68 4.141 7.56a.88.88 0 1 1-.511-1.684c3.323-1.01 8.849-.814 12.34 1.258a.88.88 0 0 1-.898 1.514"></path>
+              </g>
+            </svg>
+          </span>
+        </a>
+      </div>
+      <br><br>
+      <ul class="nav nav-pills flex-column mb-auto">
+        <li class="nav-item">
+          <a href="#" class="nav-link " aria-current="page">  <i class="fas fa-home"></i>
+            <svg class="bi me-2 fas fa-home" width="16" height="16"></svg><use xlink:href="#home"></use></svg>
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link text-white"> <i class="fas fa-search"></i> 
+            <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+            Search
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link text-white">  <i class="fas fa-book"></i>
+            <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
+            Your Library
+          </a>
+        </li>
+      </ul>  
+      <button type="button" class="btn border text-white btn-black rounded-pill hovered mt-auto ">SIGN UP</button>
+      <br>
+      <button type="button" class="btn border text-white btn-black rounded-pill hovered ">LOGIN</button>
+      <br>
+      <div class=' mx-auto d-flex flex-column justify-content-center '>
+        <p class="text-white ">Cookie |  Privacy</p>
+        <p class="text-light"> Policy </p>  
+      </div>
+    </div>
+    <!-- left navbar ends -->
+
+    <!--  Main content starts    -->
+    <div id = "body">
+      <div class="container cards_cont">
+        <div class = "button d-flex justify-content-center">
+            <div class = "button_top">TRENDING
+              <div class="green_line"></div>
+            </div>
+            <div style="color: rgb(190, 190, 190);" class = "button_top">PODCAST</div>
+            <div style="color: rgb(190, 190, 190);" class = "button_top">MOODS AND GENRES</div>
+            <div style="color: rgb(190, 190, 190);" class = "button_top">NEW RELEASES</div>
+            <div style="color: rgb(190, 190, 190);" class = "button_top">DISCOVER</div>
+        </div>
+
+        <div class="p-3">
+          <br>
+          <span class="heading">  #THROWBACKTHURSDAY </span>
+        </div>
+
+        <div class="container"> 
+          <div class="row">
+            <div class="col-sm-6 col-md-3 col-lg-2"> 
+              <div class="card" >
+                <img class="card-img-top" src="https://m.media-amazon.com/images/I/61QQv9A3cCL._SS500_.jpg" alt="Card image cap">
+              </div>
+              <p class="card-text">Hollywood's Bleeding [Explicit]</p>
+            </div>
+
+            <div class="col-sm-6 col-md-3 col-lg-2"> 
+              <div class="card" >
+                <img class="card-img-top" src="https://i1.wp.com/i.pinimg.com/originals/4f/48/b2/4f48b2884e6775ec285d7118b9f38d68.jpg" alt="Card image cap">
+              </div>
+              <p class="card-text">Light Bulb</p>
+            </div>
+
+            <div class="col-sm-6 col-md-3 col-lg-2"> 
+              <div class="card">
+                <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/a/a0/Ariana_Grande_-_Positions.png" alt="Card image cap">
+              </div>
+              <p class="card-text">Ariana </p>
+            </div>
+
+            <div class="col-sm-6 col-md-3 col-lg-2"> 
+              <div class="card">
+                <img class="card-img-top" src="https://i.pinimg.com/originals/4c/97/10/4c971038f52be5ecc2d3845f303edd64.jpg" alt="Card image cap">
+              </div>
+              <p class="card-text">XXX tentation</p>
+            </div>
+
+            <div class="col-sm-6 col-md-3 col-lg-2"> 
+              <div class="card">
+                <img class="card-img-top" src="https://i.pinimg.com/474x/b8/3f/27/b83f27e23df97a4eeed9b72c8de43db0.jpg" alt="Card image cap">
+              </div>
+              <p class="card-text">Snoop Dog</p>
+            </div>
+
+            <div class="col-sm-6 col-md-3 col-lg-2"> 
+              <div class="card">
+                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIQg48goVB02o_FiR-Xj76ZE28-iSXGoAqvw&usqp=CAU" alt="Card image cap">
+              </div>
+              <p class="card-text">DJ Khalid</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <div class="container cards_cont">
+
+      <div class="p-3">
+        <br>
+        <span class="heading">  Classifiche </span>
+      </div>
+
+      <div class="container"> 
+        <div class="row">
+
+          <div class="col-sm-6 col-md-3 col-lg-2"> 
+            <div class="card">
+              <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/c/cd/Taylor_Swift_-_Lover.png" alt="Card image cap">
+            </div>
+            <p class="card-text">Top50-Italy</p>
+
+          </div>
+
+          <div class="col-sm-6 col-md-3 col-lg-2"> 
+            <div class="card">
+              <img class="card-img-top" src="https://cdn8.openculture.com/2018/02/26214700/First-Aid-Kit-Ruins-e1519715301105.jpg" alt="Card image cap">
+            </div>
+            <p class="card-text">Top5--Global</p>
+
+          </div>
+
+
+          <div class="col-sm-6 col-md-3 col-lg-2"> 
+            <div class="card" >
+              <img class="card-img-top" src="https://i.pinimg.com/originals/f2/31/5d/f2315d4a302e4640b46ff45320c9c9e6.jpg" alt="Card image cap">
+            </div>
+            <p class="card-text">Viral50-Global</p>
+          </div>
+
+          <div class="col-sm-6 col-md-3 col-lg-2"> 
+            <div class="card">
+              <img class="card-img-top" src="https://www.rollingstone.com/wp-content/uploads/2018/06/rs-108778-76c9bb47fe3d39d006d36ab13c1a677351468b6a.jpg?w=510" alt="Card image cap">
+            </div>
+            <p class="card-text">Viral50-Italy</p>
+          </div>
+
+        </div>
+      </div>
+      
+    </div>
+
+    <br><br><br><br><br><br><br>
+  </div>
+
+  </div>
+  <div class="container-fluid footer">
       <footer>
         <div class="row">
           <div class="col-4">
@@ -66,17 +229,6 @@
         </div>
       </footer>
     </div>
-
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
-    -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
   </body>
 </html>
