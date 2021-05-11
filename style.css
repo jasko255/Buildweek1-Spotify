@@ -11,3 +11,11 @@ a{
 svg{
     fill: white;
 }
+/* button:hover{
+    color: white;
+    background-color: black;
+} */
+.hovered:hover {
+color: black !important;
+background-color: white !important;
+}
