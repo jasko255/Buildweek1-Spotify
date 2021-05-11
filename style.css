@@ -105,14 +105,19 @@ footer > .row > .col-4:nth-child(2) {
 
 /* main content css starts here */
 #body {
-    background: rgb(6,4,20);
-    background: linear-gradient(356deg, rgba(6,4,20,1) 15%, rgba(14,65,109,1) 58%, rgba(19,102,162,1) 100%);
+    /* background: rgb(6,4,20); */
+    background-image: url(https://64.media.tumblr.com/4587477de32cb14d2852d46546458daa/tumblr_inline_pmvkkgHhNB1svxsiv_1280.png);
+    background-repeat: no-repeat;
     color: white;
     font-family: "Montserrat";
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 5px;
     width: 100%;
+}
+#body background-image{
+    max-width:max-content;
+
 }
 
 .button_top {
@@ -180,8 +185,8 @@ svg {
 }
 
 .hovered:hover {
-  color: black !important;
-  background-color: white !important;
+  color: white !important;
+  background-color: rgb(118, 212, 118) !important;
 }
 
 #main-content {
