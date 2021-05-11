@@ -9,14 +9,14 @@
     <title>Spotify</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="homepage.css">
   </head>
   <body>
     <!-- main content starts here(side-navbar and main content) -->
     <div class="d-flex h-100" id="main-content">
       <!-- left navbar starts -->
-      <div class="d-flex flex-column p-3 bg-black" style="width: 230px;">
-        <div class="w-75">
+      <div class="d-flex flex-column navbar">
+        <div class="logo">
           <a href="#">
             <span>
               <svg viewBox="0 0 63 20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMin meet">
@@ -27,40 +27,34 @@
             </span>
           </a>
         </div>
-        <br><br>
         <ul class="nav nav-pills flex-column mb-auto">
           <li class="nav-item">
-            <a href="#" class="nav-link " aria-current="page">  <i class="fas fa-home"></i>
-              <svg class="bi me-2 fas fa-home" width="16" height="16"></svg><use xlink:href="#home"></use></svg>
-              Home
+            <a href="#" class="nav-link d-flex" aria-current="page"><i class="fas fa-home text-center"></i>
+              <h2 class="my-auto">Home</h2>
             </a>
           </li>
-          <li>
-            <a href="#" class="nav-link text-white"> <i class="fas fa-search"></i> 
-              <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
-              Search
+          <li class="nav-item">
+            <a href="#" class="nav-link d-flex"><i class="fas fa-search text-center"></i> 
+              <h2 class="my-auto">Search</h2>
             </a>
           </li>
-          <li>
-            <a href="#" class="nav-link text-white">  <i class="fas fa-book"></i>
-              <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
-              Your Library
+          <li class="nav-item">
+            <a href="#" class="nav-link d-flex"><i class="fas fa-book text-center"></i>
+              <h2 class="my-auto">Your Library</h2>
             </a>
           </li>
         </ul>  
-        <button type="button" class="btn border text-white btn-black rounded-pill hovered mt-auto ">SIGN UP</button>
-        <br>
-        <button type="button" class="btn border text-white btn-black rounded-pill hovered ">LOGIN</button>
-        <br>
-        <div class=' mx-auto d-flex flex-column justify-content-center '>
-          <p class="text-white ">Cookie |  Privacy</p>
-          <p class="text-light"> Policy </p>  
+        <button type="button" class="btn rounded-pill btn-sign-up">SIGN UP</button>
+        <button type="button" class="btn rounded-pill btn-log-in">LOGIN</button>
+        <div class='mx-auto d-flex flex-column nav-text-block'>
+          <p class="nav-text-bottom m-0">Cookie    |    Privacy</p>
+          <p class="nav-text-bottom"> Policy </p>  
         </div>
       </div>
       <!-- left navbar ends -->
 
       <!--  Main content starts -->
-      <div id = "body">
+      <div id="body">
         <div class="container cards_cont">
           <!-- Main content top menu -->
           <div class = "d-flex justify-content-center">

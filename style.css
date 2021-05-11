@@ -103,86 +103,113 @@ footer > .row > .col-4:nth-child(2) {
 }
 /* player styles end here */
 
-/* main content css starts here */
-#body {
-    background: rgb(6,4,20);
-    background: linear-gradient(356deg, rgba(6,4,20,1) 15%, rgba(14,65,109,1) 58%, rgba(19,102,162,1) 100%);
-    color: white;
-    font-family: "Montserrat";
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    width: 100%;
+/* left navbar styles starts here */
+.navbar {
+    min-width: 230px;
+    position: fixed;
+    background: rgb(4,8,12);
+    background: linear-gradient(0deg, rgba(4,8,12,1) 0%, rgba(8,15,23,1) 100%);
+    height: calc(100% - 82px);
+    align-items: unset;
 }
 
-.button_top {
-    color: white;
+.navbar button {
+    width: 80%;
+    padding: 6px 12px;
+    letter-spacing: 2px;
+    font-size: 11px;
+    font-weight: 700;
+    margin: 8px auto;
+}
+
+.nav-text-bottom {
+    color: #959697;
     font-size: 13px;
-    font-family: Trebuchet MS;
-    padding-right: 38px;
 }
 
-.col p {
+.nav-text-block {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    white-space: pre-wrap;
+}
+
+.btn-sign-up {
+    color: black;
+    background-color: white;
+    box-sizing: border-box;
+    border: 2px solid white;
+}
+
+.btn-sign-up:hover {
     color: white;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 500;
-}
-
-.green_line{
-    border: chartreuse  1px solid;
-}
-
-.col {
-    padding-right: 5px;
-}
-
-.card {
-    border: none;
-}
-
-div h2 {
-    font-weight: 1000 !important;
-}
-
-.heading {
-    font-size: 22px;
-    text-shadow: 0px 1px, 1px 0px, 1px 1px;
-}
-
-.card-text {
-    text-align: center;
-    font-size: 13px;
-    text-shadow: 0px 0.8px, 0.8px 0px, 0.8px 0.8px;
-    color: white;
-}
-
-.card img {
-    -webkit-box-shadow: -2px -7px 23px 5px rgba(0,0,0,0.4); 
-    box-shadow: -2px -7px 23px 5px rgba(0,0,0,0.4);
-}
-
-body {
     background-color: black;
-    height: 100vh;
+    border: 2px solid white;
 }
 
-a{
-    color: white !important;
+.btn-log-in {
+    color: white;
+    background-color: #161719;
+    box-sizing: border-box;
+    border: 2px solid #b4b4b4;
+    box-shadow: inset 0 0 3px black;
 }
 
-#logo {
-    width: 200px;
+.btn-log-in:hover {
+    color: black;
+    background-color: white;
+    box-sizing: border-box;
+    border: 2px solid white;
+    box-shadow: none;
 }
 
-svg {
-    fill: white;
+.nav i {
+    font-size: 20px;
+    color: #9e9e9e;
+    margin-right: 15px;
+    width: 23px;
 }
 
-.hovered:hover {
-  color: black !important;
-  background-color: white !important;
+.nav-item:hover i, .nav-item:hover h2, .nav-item:active i, .nav-item:active h2 {
+    color: #fff!important;
 }
+
+.navbar ul a {
+    padding-left: 20px;
+    border-radius: unset!important;
+    border-left: 4px solid transparent!important;
+    padding-top: 6px;
+    padding-bottom: 4px;
+}
+
+.navbar ul a:active {
+    border-left: 4px solid #42d96e!important;
+}
+
+.navbar .logo {
+    width: 130px;
+    margin-top: 15px;
+    margin-left: 26px;
+    margin-bottom: 25px;
+}
+
+.navbar h2 {
+    color: #9e9e9e;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline;
+    margin: 0;
+}
+
+.nav-item {
+    margin-bottom: 9px;
+}
+
+#body {
+    margin-left: 230px;
+}
+
+/* left navbar styles ends here */
+
 
 #main-content {
     padding-bottom: 82px;
