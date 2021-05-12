@@ -208,6 +208,15 @@ footer > .row > .col-4:nth-child(2) {
 #body {
     margin-left: 230px;
 }
+
+svg {
+    fill: white;
+}
+
+
+#logo {
+    width: 200px;
+}
 /* left navbar styles ends here */
 
 
