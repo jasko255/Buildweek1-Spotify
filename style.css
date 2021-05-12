@@ -1,0 +1,222 @@
+/* player css starts here */
+.footer {
+    min-width: 720px;
+    height: 83px;
+    position: fixed;
+    bottom: 0;
+    background-color: #181818;
+    border-top: 1px solid #282828;
+}
+
+footer {
+    height: 100%;
+}
+
+footer > .row {
+    height: 100%;
+}
+
+.player-bar {
+    background-color: #535353;
+    height: 3.5px;
+    border-radius: 2px;
+    margin-top: 1px;
+}
+
+.footer button {
+    background: none;
+    border: none;
+    color: #b3b3b3;
+    cursor: default;
+    height: 29px;
+    width: 29px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.footer button:hover:not(.play-button) {
+    color: #fff;
+}
+
+.footer i {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.player-buttons {
+    width: 224px;
+    flex: none;
+    margin-bottom: 12px;
+    display: flex;
+}
+
+.footer .play-button {
+    color: #000;
+    background-color: #fff;
+    border-radius: 32px;
+    position: relative!important;
+}
+
+.footer .play-button i {
+    position: absolute;
+    left: 11px;
+}
+
+.play-button:hover {
+    transform: scale(1.06);
+    transition: none 33ms cubic-bezier(.3,0,0,1);
+    transition-property: all;
+}
+
+.player-time {
+    font-size: 11px;
+    color: #B3B3B3;
+}
+
+footer > .row > .col-4:nth-child(2) {
+    padding: unset;
+}
+
+.timeline {
+    height: 16px;
+}
+
+.wider-icon {
+    transform: scale(1.5,1);
+}
+
+.volume-bar {
+    flex: 0 1 125px;
+}
+
+.player-right-section i{
+    font-size: 12px;
+}
+
+.player-volume {
+    height: 4px;
+    background-color: #b3b3b3;
+    width: 100%;
+    border-radius: 2px;
+    margin-bottom: 2px;
+}
+/* player styles end here */
+
+/* left navbar styles starts here */
+.navbar {
+    min-width: 230px;
+    position: fixed;
+    background: rgb(4,8,12);
+    background: linear-gradient(0deg, rgba(4,8,12,1) 0%, rgba(8,15,23,1) 100%);
+    height: calc(100% - 82px);
+    align-items: unset;
+}
+
+.navbar button {
+    width: 80%;
+    padding: 6px 12px;
+    letter-spacing: 2px;
+    font-size: 11px;
+    font-weight: 700;
+    margin: 8px auto;
+}
+
+.nav-text-bottom {
+    color: #959697;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.nav-text-block {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    white-space: pre-wrap;
+}
+
+.btn-sign-up {
+    color: black;
+    background-color: white;
+    box-sizing: border-box;
+    border: 2px solid white;
+}
+
+.btn-sign-up:hover {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.btn-log-in {
+    color: white;
+    background-color: #161719;
+    box-sizing: border-box;
+    border: 2px solid #b4b4b4;
+    box-shadow: inset 0 0 3px black;
+}
+
+.btn-log-in:hover {
+    color: black;
+    background-color: white;
+    box-sizing: border-box;
+    border: 2px solid white;
+    box-shadow: none;
+}
+
+.nav i {
+    font-size: 20px;
+    color: #9e9e9e;
+    margin-right: 15px;
+    width: 23px;
+}
+
+.nav-item:hover i, .nav-item:hover h2, .nav-item:active i, .nav-item:active h2 {
+    color: #fff!important;
+}
+
+.navbar ul a {
+    padding-left: 20px;
+    border-radius: unset!important;
+    border-left: 4px solid transparent!important;
+    padding-top: 6px;
+    padding-bottom: 4px;
+}
+
+.navbar ul a:active {
+    border-left: 4px solid #42d96e!important;
+}
+
+.navbar .logo {
+    width: 130px;
+    margin-top: 15px;
+    margin-left: 26px;
+    margin-bottom: 25px;
+}
+
+.navbar h2 {
+    color: #9e9e9e;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline;
+    margin: 0;
+}
+
+.nav-item {
+    margin-bottom: 9px;
+}
+
+#body {
+    margin-left: 230px;
+}
+/* left navbar styles ends here */
+
+
+#main-content {
+    padding-bottom: 82px;
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1450px;
+    }
+}
