@@ -193,12 +193,21 @@ svg {
 
 #main_content {
   padding-bottom: 82px;
-  background: rgb(6, 4, 20);
+  /* background: rgb(6, 4, 20);
   background: linear-gradient(
     356deg,
     rgba(6, 4, 20, 1) 28%,
     rgba(32, 34, 34, 1) 95%
+  ); */
+
+  background: rgb(6, 4, 20);
+  background: linear-gradient(
+    356deg,
+    rgba(6, 4, 20, 1) 46%,
+    rgba(32, 34, 34, 1) 100%
   );
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 #main_content ul li {
@@ -291,6 +300,7 @@ svg {
 }
 
 .top-div {
+  width: 100%;
   background-color: black;
   padding-bottom: 50px;
 }
