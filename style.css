@@ -124,7 +124,8 @@ footer > .row > .col-4:nth-child(2) {
 
 .nav-text-bottom {
     color: #959697;
-    font-size: 13px;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 .nav-text-block {
@@ -207,10 +208,15 @@ footer > .row > .col-4:nth-child(2) {
 #body {
     margin-left: 230px;
 }
-
 /* left navbar styles ends here */
 
 
 #main-content {
     padding-bottom: 82px;
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1450px;
+    }
 }

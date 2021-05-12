@@ -1,34 +1,29 @@
 /* import common styles */
 @import "style.css";
+@import "keyframes.css";
 
 /* main content css starts here */
 #body {
     background: rgb(6,4,20);
     background: linear-gradient(356deg, rgba(6,4,20,1) 15%, rgba(14,65,109,1) 58%, rgba(19,102,162,1) 100%);
     color: white;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 5px;
+    padding-top: 30px;
     width: 100%;
 }
 
 .button_top {
     color: white;
-    font-size: 13px;
-    font-family: Trebuchet MS;
-    padding-right: 38px;
-}
-
-.col p {
-    color: white;
-    text-align: center;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 800;
+    padding-right: 38px;
+    letter-spacing: 2px;
 }
 
 .green_line{
-    border: chartreuse  1px solid;
+    border: chartreuse 1px solid;
 }
 
 .col {
@@ -37,23 +32,49 @@
 
 .card {
     border: none;
+    position: relative;
+    transform: scale(1,1);
+    transition: all 330ms ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1,1.1);
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    background: url("/icon/spotify-brands.svg") no-repeat;
+    width: 18px;
+    height: 18px;
+    left: 10px;
+    top: 10px;  
 }
 
 .heading {
-    font-size: 22px;
+    font-size: 32px;
     text-shadow: 0px 1px, 1px 0px, 1px 1px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 12px;
+    margin-bottom: 25px;
 }
 
 .card-text {
+    margin-top: 14px;
+    margin-bottom: 20px!important;
     text-align: center;
-    font-size: 13px;
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 1px;
     text-shadow: 0px 0.8px, 0.8px 0px, 0.8px 0.8px;
-    color: white;
+    color: #ffffff;
 }
 
 .card img {
-    -webkit-box-shadow: -2px -7px 23px 5px rgba(0,0,0,0.4); 
-    box-shadow: -2px -7px 23px 5px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.4); 
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.4);
+    border-radius: 2px;
 }
 
 body {
@@ -77,3 +98,35 @@ svg {
   color: black !important;
   background-color: white !important;
 }
+
+.cards_cont {
+    margin-top: 50px;
+}
+
+/* card play button css starts  */
+.card-play-btn {
+    position: absolute;
+    background-color: #1db954;
+    width: 35px;
+    height: 35px;
+    border-radius: 17px;
+    right: 20px;
+    bottom: 10px;
+}
+
+.card .card-play-btn {
+    animation: slide-bot 0.3s ease-in-out both;
+}
+
+.card:hover .card-play-btn {
+    display: block;
+    animation: slide-top 0.3s ease-in-out both;
+}
+
+.card-play-btn i {
+    position: absolute;
+    font-size: 10px;
+    left: 14px;
+    top: 12px;
+}
+/* card play button css ends */
