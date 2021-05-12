@@ -8,6 +8,13 @@
     border-top: 1px solid #282828;
 }
 
+.mainbuttons{
+    width: 15%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 footer {
     height: 100%;
 }
@@ -103,6 +110,15 @@ footer > .row > .col-4:nth-child(2) {
 }
 /* player styles end here */
 
+.fixed{
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    width: 230px;
+    background-color: #111; 
+    margin-bottom: 100px ;
+}
+
 /* main content css starts here */
 #body {
     /* background: rgb(6,4,20); */
@@ -114,6 +130,7 @@ footer > .row > .col-4:nth-child(2) {
     padding-right: 15px;
     padding-top: 5px;
     width: 100%;
+    margin-left: 230px;
 }
 #body background-image{
     max-width:max-content;
