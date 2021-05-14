@@ -150,6 +150,7 @@ footer > .row > .col-4:nth-child(2) {
 
 .navbar button {
     width: 80%;
+    height: 35px;
     padding: 6px 12px;
     letter-spacing: 2px;
     font-size: 11px;
@@ -225,6 +226,10 @@ footer > .row > .col-4:nth-child(2) {
     border-left: 4px solid transparent!important;
     padding-top: 6px;
     padding-bottom: 4px;
+}
+
+.navbar a {
+    text-decoration: none;
 }
 
 .navbar ul a:active {
