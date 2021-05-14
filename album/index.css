@@ -39,15 +39,10 @@ body {
 
 #main_content .container-fluid img {
   /* width: 100%; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 70%;
-  padding-top: 50px;
-  padding-bottom: 20px;
-  padding-left: 110px;
-  text-align: center;
-  display: block;
+  margin: auto 0;
+  width: 50%;
+  margin-top: 10%;
+  margin-bottom: 20px;
 
   /* margin-top: 50px; */
 }
