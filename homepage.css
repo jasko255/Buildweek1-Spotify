@@ -86,19 +86,6 @@ a {
     color: white !important;
 }
 
-#logo {
-    width: 200px;
-}
-
-svg {
-    fill: white;
-}
-
-.hovered:hover {
-  color: black !important;
-  background-color: white !important;
-}
-
 .cards_cont {
     margin-top: 50px;
 }
@@ -128,5 +115,9 @@ svg {
     font-size: 10px;
     left: 14px;
     top: 12px;
+}
+
+.cards_cont a {
+    text-decoration: none;
 }
 /* card play button css ends */
