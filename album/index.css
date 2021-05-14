@@ -6,15 +6,28 @@
   color: white;
   font-family: "Montserrat", sans-serif;
   width: 100%;
-}
-
-#main_content {
-  background: rgb(6, 4, 20);
-  background: linear-gradient(
+  /* background: linear-gradient(
     356deg,
     rgba(6, 4, 20, 1) 46%,
     rgba(32, 34, 34, 1) 100%
-  );
+  ); */
+}
+body {
+  background: rgb(6, 4, 20);
+  /* background: linear-gradient(
+    356deg,
+    rgba(6, 4, 20, 1) 46%,
+    rgba(32, 34, 34, 1) 100%
+  ); */
+}
+
+#main_content {
+  background: rgb(6, 4, 20); */
+  /* /* background: linear-gradient(
+    356deg,
+    rgba(6, 4, 20, 1) 46%,
+    rgba(32, 34, 34, 1) 100%
+  ); */
   padding-left: 0px !important;
   padding-right: 0px !important;
   height: 100vh;
@@ -42,6 +55,7 @@
 #main_content .song-list .song-title {
   display: inline;
   color: white;
+  text-align: center;
 }
 
 #main_content .song-list .timer {
@@ -108,12 +122,12 @@
   font-size: 10px;
   margin-top: 15px;
 }
-
+/* 
 .top-div {
   width: 100%;
   background-color: black;
   padding-bottom: 50px;
-}
+} */
 
 #main_content .image-div .font-aw i {
   color: rgb(219, 213, 213);
