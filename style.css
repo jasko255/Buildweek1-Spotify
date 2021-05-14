@@ -1,6 +1,5 @@
 /* player css starts here */
 .footer {
-    min-width: 720px;
     height: 83px;
     position: fixed;
     bottom: 0;
@@ -227,5 +226,19 @@ svg {
 @media (min-width: 1400px) {
     .container {
         max-width: 1450px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        display: none!important;
+    }
+
+    #body {
+        margin-left: 0px!important;
+    }
+
+    .volume-bar {
+        flex: 0 1 0px;
     }
 }
